@@ -1,0 +1,7 @@
+package Arrays;
+
+public class LinearSearch{
+	int[] myArray= new int[5];
+	
+
+}

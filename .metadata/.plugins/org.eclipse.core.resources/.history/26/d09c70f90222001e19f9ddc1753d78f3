@@ -1,0 +1,34 @@
+package datastructures;
+
+public class BubbleSort {
+	int id;
+	private int monm;
+	String name;
+	static String add;
+	final int roll=12;
+	
+	private  BubbleSort(int id, int monm, int roll,String add, String name){
+		this.id=id;
+		this.monm=monm;
+		this.add=add;
+		this.name=name;
+		
+		}
+	public BubbleSort(	int id, int monm, int roll) {
+//	id=12;
+//	monm=232;
+//	roll=345;
+//		
+	}
+	
+	public static void main(String[] args) {
+		BubbleSort bb= new BubbleSort(122, 344, 5352, "Sgag", "asahsahgdj");
+		BubbleSort bc= new BubbleSort(12, 21, 212);
+		System.out.println(bb.id);
+		System.out.println(bc.id);
+		
+	
+	}
+}
+
+

@@ -1,0 +1,11 @@
+package datastructures;
+
+public interface Inter {
+	static int idd=100;
+	int iddd=1000;
+	final String name="Srinath";
+	public String  data();
+	
+	
+
+}

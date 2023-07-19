@@ -1,0 +1,105 @@
+package datastructures;
+
+import java.util.Scanner;
+
+public class Bank {
+	String FirstName;
+	String LastName;
+	final String Name= FirstName+ LastName;
+	double AccountNumber;
+	String Address;
+	double AmountCredited;
+	double AmountDebited;
+	double Amount=0 +AmountCredited;
+	
+	
+	public Bank(String firstName, String lastName, double accountNumber, String address, double amountCredited,
+			double amountDebited) {
+		super();
+		FirstName = firstName;
+		LastName = lastName;
+		AccountNumber = accountNumber;
+		Address = address;
+		AmountCredited = amountCredited;
+		AmountDebited = amountDebited;
+	}
+	
+	public void Details() {
+	
+
+		
+	}
+	
+	public double getAmountCredited() {
+		return AmountCredited;
+	}
+	public void setAmountCredited(double amountCredited) {
+		AmountCredited = amountCredited;
+	}
+	public double getAmountDebited() {
+		return AmountDebited;
+	}
+	public void setAmountDebited(double amountDebited) {
+		AmountDebited = amountDebited;
+	}
+	public double getAmount() {
+		return Amount;
+	}
+	
+
+
+
+	public double getAccountNumber() {
+		return AccountNumber;
+	}
+
+
+	public void setAccountNumber(double accountNumber) {
+		AccountNumber = accountNumber;
+	}
+
+
+	public String getAddress() {
+		return Address;
+	}
+
+
+	public void setAddress(String address) {
+		Address = address;
+	}
+
+
+	public String getName() {
+		return Name;
+	}
+
+
+	public String getFirstName() {
+		return FirstName;
+	}
+
+
+	public void setFirstName(String firstName) {
+		FirstName = firstName;
+	}
+
+
+	public String getLastName() {
+		return LastName;
+	}
+
+
+	public void setLastName(String lastName) {
+		LastName = lastName;
+	}
+	
+	
+   public static void main(String[] args) {
+		Bank b1= new Bank("Srinatha", "v", 31712412983.00, "malur", 45000.46, 163537.83);
+		System.out.println("the account number of user is : "+b1.getAccountNumber());
+		System.out.println("total amount in your account is : "+b1.getAmount());
+		Scanner sc= new Scanner(System.in);
+		System.out.println("");
+	
+}
+}

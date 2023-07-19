@@ -1,0 +1,12 @@
+package datastructures;
+
+public class Branch extends Bank {
+
+	public Branch(String firstName, String lastName, double accountNumber, String address, double amountCredited,
+			double amountDebited) {
+		super(firstName, lastName, accountNumber, address, amountCredited, amountDebited);
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

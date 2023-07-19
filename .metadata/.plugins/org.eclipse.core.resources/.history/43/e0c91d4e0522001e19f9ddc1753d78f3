@@ -1,0 +1,31 @@
+package datastructures;
+
+//public class Bubble extends BubbleSort {
+	
+//	public Bubble(int id, int monm) {
+//		super(id, monm);
+//		// TODO Auto-generated constructor stub
+//	}
+	public class Bubble implements Inter{
+		
+	
+
+	public static void main(String[] args) {
+	
+		
+		BubbleSort bb= new BubbleSort(122, 344, 5352, "Sgag", "asahsahgdj");
+		BubbleSort bc= new BubbleSort(12, 21);
+		System.out.println(bb.id);
+		System.out.println(bc.id);
+		System.out.println(idd);
+		
+	
+	}
+
+	@Override
+	public String data() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

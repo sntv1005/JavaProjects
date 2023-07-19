@@ -1,0 +1,19 @@
+package Link;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class JavaStream {
+	
+	
+	public static void main(String[] args) {
+		List<Product> ProductList= new ArrayList();
+		ProductList.add(new Product(1,"HP laptop",25000f));
+		ProductList.add(new Product(1,"HP laptop",25000f));
+		ProductList.add(new Product(1,"HP laptop",25000f));
+		ProductList.add(new Product(1,"HP laptop",25000f));
+		ProductList.add(new Product(1,"HP laptop",25000f));
+		System.out.println(ProductList);
+		}
+
+}

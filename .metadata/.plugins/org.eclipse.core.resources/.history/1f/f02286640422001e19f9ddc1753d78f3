@@ -1,0 +1,15 @@
+package datastructures;
+
+public class Bubble extends BubbleSort {
+	public static void main(String[] args) {
+	
+		
+		BubbleSort bb= new BubbleSort(122, 344, 5352, "Sgag", "asahsahgdj");
+		BubbleSort bc= new BubbleSort(12, 21, 212);
+		System.out.println(bb.id);
+		System.out.println(bc.id);
+		
+	
+	}
+
+}

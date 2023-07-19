@@ -1,0 +1,14 @@
+package Arrays;
+
+import java.util.Arrays;
+import java.util.Collections;
+
+public class Sorting {
+	
+	public static void main(String[] args) {
+		
+		Integer[] arr= {1,4,8,9,0,123,456,234,321,2354};
+		Arrays.sort(arr);
+	}
+
+}

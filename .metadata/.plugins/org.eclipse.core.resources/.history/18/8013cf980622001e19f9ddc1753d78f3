@@ -1,0 +1,11 @@
+package datastructures;
+
+public class Bank {
+	String FirstName;
+	String LastName;
+	final String Name= FirstName+ LastName;
+	long AccountNumber;
+	String Address;
+	
+
+}
